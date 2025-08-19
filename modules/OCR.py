@@ -10,10 +10,10 @@ import sympy as sp
 from modules.utils import make_client
 
 # Set your OpenAI API key
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ''
 openai.api_key = 'YOUR_OPENAI_API_KEY'
 
-client = make_client('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')
+client = make_client('')
 
 
 def encode_image(image_path):
